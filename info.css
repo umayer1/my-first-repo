@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(info\ bg.jpeg);
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/* navbar starts hear */
+nav{
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(-10px);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    padding: 0 0 0 15px;
+    font-family: 'Teko', sans-serif;
+    color: #ff7200;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 30px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: black;
+    border-bottom: 2px solid whitesmoke;
+}
+
+/* navbar ends hear */
+
+/* main div starts hear */
+.main-div{
+    width: 100%;
+    height: auto;
+    background-color: red;
+}
+
+
+
+
+/* list-div strts hear */
+
+.list-div{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 30px 0 0 30px;
+    background-image: url(list\ bg.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.list-div li{
+    width: 100px;
+    padding: 10px 0 0 0;
+}
+
+.list-div li button{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(244, 243, 243, 0.3);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.list-div li button:hover{
+    background-color: rgba(12, 245, 20, 3);
+    color: black;
+}
+
+#sa{
+    color: red;
+    background-color: aqua;
+}
+.list1{
+    float: left;
+    padding: 0 250px 0 0;
+}
+.list2{
+    float: left;
+}
+
+/* list-div ends hear */
+
+
+
+.info-img{
+    width: 50%;
+    height: auto;
+    float: right;
+    
+}
+
+.img1{
+    text-align: center;
+}
+#i-img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 0 1px;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+}
+
+.all-info{
+    margin: 20px 0 0 10px;
+}
+
+#all-span{
+    font-size: 0.9rem;
+}
+
+#all-span1, #all-span2, #all-span3, #all-span4{
+    font-size: 0.9rem;
+}
+
+#na{
+    font-size: 1.5rem;
+}

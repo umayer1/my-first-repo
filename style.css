@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img\ bg.jpeg);
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/* navbar starts hear */
+nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(-10px);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    padding: 0 0 0 15px;
+    font-family: 'Teko', sans-serif;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 30px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: black;
+    border-bottom: 2px solid whitesmoke;
+}
+
+/* navbar ends hear */
+
+/* main div starts hear */
+.main-div{
+    width: 100%;
+    height: auto;
+    background-color: red;
+}
+
+
+
+
+/* list-div strts hear */
+
+.list-div{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 30px 0 0 30px;
+    background-image: url(list\ bg.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.list-div li{
+    width: 100px;
+    padding: 10px 0 0 0;
+}
+
+.list-div li button{
+    width: 80px;
+    height: 30px;
+    background-color: rgba(244, 243, 243, 0.3);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.list-div li button:hover{
+    background-color: rgba(12, 245, 20, 3);
+    color: black;
+}
+
+#sa{
+    color: red;
+    background-color: aqua;
+}
+.list1{
+    float: left;
+    padding: 0 250px 0 0;
+}
+.list2{
+    float: left;
+}
+
+/* list-div ends hear */
+
+
+
+
+
+
+/* img-div strts hear */
+.img-div{
+    width: 50%;
+    height: auto;
+    float: right;
+    background-image: url(img\ bg.jpeg);
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+#all-img{
+    width: 300px;
+    height: 300px;
+    margin: 80px 0 0 200px;
+   
+}
+
+#para{
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px 0 0 0;
+}
+
+/* img-div ends hear */
+
+/* footer  starts hear*/
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+}
+/* footer ends hear */
+
+
+
+
